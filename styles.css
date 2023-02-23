@@ -25,7 +25,7 @@ a {
   
   color: #000; 
   text-decoration-color: #333332;
-  margin: 0px;
+  margin: 10px;
 }
 a:hover{
   text-decoration: underline;
