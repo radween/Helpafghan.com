@@ -22,10 +22,15 @@ li {
 }
 
 a {
-  color: #000;
-  text-decoration: none;
+  
+  color: #000; 
+  text-decoration-color: #333332;
+  margin: 8px;
+  padding: 5px;
 }
 a:hover{
+  text-decoration: underline;
+  text-decoration-color: #fff;
   transition: 0.5s ease-out ;
   color: greenyellow;
 }
@@ -315,7 +320,7 @@ footer > span {
   display: flex;
   justify-content: flex-end;
   font-size: 0.9em;
-  color: black;
+  color:black;
 }
 .info {
   font-weight: bold;
