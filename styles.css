@@ -315,7 +315,7 @@ footer > span {
   display: flex;
   justify-content: flex-end;
   font-size: 0.9em;
-  color: darkslategray;
+  color: black;
 }
 .info {
   font-weight: bold;
