@@ -23,11 +23,10 @@ body{
 
 li {
   list-style: none;
-  
 }
 
 a {
-  color:rgb(0, 0, 255);
+  color:#fff;
   margin: 5px;
   padding: 0px;
   font-weight: bold;
@@ -35,10 +34,9 @@ a {
   
 }
 a:hover{
-  text-decoration: underline;
-  text-decoration-color: #fff;
+
   transition: 0.5s ease-out ;
-  color: rgb(7, 0, 0);
+  color: rgb(248, 13, 209);
 }
 
 /** global classes styling **/
@@ -49,20 +47,24 @@ a:hover{
   margin: 0 auto;
 }
 
+
 .btn {
-  padding: 10px 20px;
+  
   height: 40px;
   font-size: 1em;
-  font-weight: 900;
   text-transform: uppercase;
   border: 2px rgb(245, 241, 241) solid;
-  border-radius: 10px;
+  border-radius: 80px;
   background: transparent;
   cursor: pointer;
+  margin: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .btn:hover{
   transition: 0.2s ease-in;
-  background-color: greenyellow;
+  background-color: rgba(19, 29, 3, 0.603);
 }
 
 .grid {
@@ -325,6 +327,10 @@ hr{
 }
 h2{
 	font-size: 20px;
+  column-rule: #fff;
+}
+.color{
+  color: #fff;
 }
 .contact-items{
 	display: flex;
